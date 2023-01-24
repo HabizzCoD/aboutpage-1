@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel:wght@200;300;400;600;800&display=swap');
+
+* {
+  font-family: 'Abel', sans-serif;
+  background: #02151b;
+}
+
+:root {
+  --color-text: #9febb8;
+  --color-hover: #56c785;
+  --color-bg: #24a04d;
+  --color-i: #04a2ac;
+}
+
+#about {
+  margin-top: 6rem;
+}
+
+.mas {
+  margin-top: 10rem;
+}
+
+.sol {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+i {
+  color: var(--color-i);
+}
+
+.txtitle {
+  color: var(--color-i);
+}
+
+@media screen and (max-width: 991px) {
+  .mas {
+    margin-top: 0;
+  }
+
+  .ros {
+    margin-right: 4rem;
+  }
+
+  .sol {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ros {
+    margin-right: 0;
+  }
+}
